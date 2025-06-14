@@ -6,5 +6,5 @@ def fact(num):
     else:
         return fact(num-1) * num
 num=int(input("Ingrese el valor hasta donde mostrar: "))
-for i in range (0,num+1):
+for i in range (1,num+1):
     print(fact(i))
